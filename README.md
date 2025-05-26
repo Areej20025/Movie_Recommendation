@@ -40,7 +40,6 @@ The cleaning process is divided into the following main phases:
 | 03          | Extract release year from the movie title into a separate column | [03_Extract_Release_Year.sql](sql-scripts/03_Extract_Release_Year.sql) |
 | 04          | Normalize genres: create separate genre table and linking table | [04_Normalize_Genres.sql](sql-scripts/04_Normalize_Genres.sql) |
 
-
 ---
 
 ## Tools and Environment
