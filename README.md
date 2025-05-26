@@ -32,13 +32,14 @@ Currently, the project is at the **data cleaning stage**. The cleaned data will 
 
 The cleaning process is divided into the following main phases:
 
-| Step Number | Description                                  | File Name                  |
-|-------------|----------------------------------------------|----------------------------|
-| 00          | Create the original tables and relationships | `00_Create_Tables.sql`      |
-| 01          | Remove duplicate movie records and clean ratings | `01_Remove_Duplicates.sql`  |
-| 02          | Clean movie titles by trimming spaces and removing unwanted characters | `02_Clean_Titles_and_Text.sql` |
-| 03          | Extract release year from the movie title into a separate column | `03_Extract_Release_Year.sql` |
-| 04          | Normalize genres: create separate genre table and linking table | `04_Normalize_Genres.sql`   |
+| Step Number | Description                                            | File Name                                                 |
+|-------------|--------------------------------------------------------|-----------------------------------------------------------|
+| 00          | Create the original tables and relationships           | [00_Create_Tables.sql](sql-scripts/00_Create_Tables.sql)  |
+| 01          | Remove duplicate movie records and clean ratings       | [01_Remove_Duplicates.sql](sql-scripts/01_Remove_Duplicates.sql) |
+| 02          | Clean movie titles by trimming spaces and removing unwanted characters | [02_Clean_Titles_and_Text.sql](sql-scripts/02_Clean_Titles_and_Text.sql) |
+| 03          | Extract release year from the movie title into a separate column | [03_Extract_Release_Year.sql](sql-scripts/03_Extract_Release_Year.sql) |
+| 04          | Normalize genres: create separate genre table and linking table | [04_Normalize_Genres.sql](sql-scripts/04_Normalize_Genres.sql) |
+
 
 ---
 
